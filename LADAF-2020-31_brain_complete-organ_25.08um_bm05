@@ -1,0 +1,53 @@
+{
+  "dimensions": {
+    "x": [
+      0.000025079999999999997,
+      "m"
+    ],
+    "y": [
+      0.000025079999999999997,
+      "m"
+    ],
+    "z": [
+      0.000025079999999999997,
+      "m"
+    ]
+  },
+  "position": [
+    4369.1669921875,
+    4269.1669921875,
+    3495.5
+  ],
+  "crossSectionScale": 10,
+  "projectionOrientation": [
+    0.3094263970851898,
+    0.20628425478935242,
+    0,
+    -0.9282791018486023
+  ],
+  "projectionScale": 4096,
+  "layers": [
+    {
+      "type": "image",
+      "source": "n5://gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/LADAF-2020-31/brain/25.08um_complete-organ_bm05/",
+      "tab": "source",
+      "shaderControls": {
+        "normalized": {
+          "range": [
+            15671,
+            24381
+          ]
+        }
+      },
+      "volumeRendering": "max",
+      "volumeRenderingDepthSamples": 256,
+      "name": "LADAF-2020-31_brain_complete-organ_25.08um_bm05"
+    }
+  ],
+  "showSlices": false,
+  "selectedLayer": {
+    "visible": true,
+    "layer": "LADAF-2020-31_brain_complete-organ_25.08um_bm05"
+  },
+  "layout": "4panel"
+}
